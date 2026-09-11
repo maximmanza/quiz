@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="no">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-<title>IT-Quiz</title>
+    <title>IT Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="midten">
-        <h1><b>Hva brukes en variabel til i programmering?</b></h1>
-    </div>
+
+<h1>IT Quiz</h1>
+
+<h2 id="question"></h2>
+
+<button id="option1" onclick="answer(0)"></button>
+<button id="option2" onclick="answer(1)"></button>
+<button id="option3" onclick="answer(2)"></button>
+<button id="option4" onclick="answer(3)"></button>
+
+<p id="points"></p>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
